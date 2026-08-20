@@ -140,5 +140,16 @@ graph TD
 2. Install **IP Webcam** $\rightarrow$ Start RTSP / HTTP server.
 3. Access live low-latency video feed securely from any device on your Tailscale network without port forwarding.
 
+### D. 1-Click Performance Optimizer Script
+Run the automated optimizer to set 0.5x animations, Cloudflare DNS, Doze deep sleep, and AOT machine code compilation:
+```bash
+./scripts/optimize_redmi9a_pe13.sh
+```
+
+### E. Additional Guides:
+* [Unlimited Google Photos & FOSS Media Setup Guide](docs/UNLIMITED_PHOTOS_AND_MEDIA_SETUP.md)
+* [Post-Mortem & Architecture Analysis](POSTMORTEM.md)
+* [Kernel & eBPF Boot Research](RESEARCH_BOOT.md)
+
 ---
-*Documentation archived in project workspace at `/mnt/personal file/from w11/phone/REDMI_9A_CUSTOM_ROM_MASTER_GUIDE.md`.*
+*Documentation authored by [Divyansh Joshi (oldregime)](https://github.com/oldregime).*
